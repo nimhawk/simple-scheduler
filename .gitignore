@@ -1,4 +1,7 @@
 /.*
+!.babelrc
+!.eslintrc
+!.eslintignore
 !.gitignore
 !.npmignore
 /node_modules
