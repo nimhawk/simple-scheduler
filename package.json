@@ -1,7 +1,13 @@
 {
   "name": "simple-scheduler",
-  "version": "2.1.1",
+  "author": "Nimit Barochia",
+  "license": "MIT",
+  "version": "1.0.0",
   "description": "Simple job scheduler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimhawk/simple-scheduler.git"
+  },
   "main": "./lib/scheduler.js",
   "scripts": {
     "build": "npm run prepublish",
@@ -12,12 +18,8 @@
     "cover": "babel-node ./node_modules/.bin/babel-istanbul cover ./node_modules/.bin/_mocha -- --require should --recursive --full-trace",
     "check-coverage": "babel-istanbul check-coverage"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.dowjones.net/nimhawk/simple-scheduler.git"
+  "dependencies": {
   },
-  "author": "Nimit Barochia",
-  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.7.4",
     "babel-cli": "^6.5.1",
@@ -31,7 +33,5 @@
     "proxyquire": "^1.7.3",
     "sinon": "^1.17.2",
     "should": "^8.0.2"
-  },
-  "dependencies": {
   }
 }
